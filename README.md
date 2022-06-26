@@ -26,8 +26,9 @@ Following requests can be used in sequential order to test the flow of the State
 
 #### The following are the users that can be used to test the app:
 
-Admin => username: admin     password: admin
-User => username: user      password: user
+Admin => username: admin  |   password: admin
+
+User => username: user    |   password: user
 
 #### First step is to get the access token, execute the following request with the valid user:
 
