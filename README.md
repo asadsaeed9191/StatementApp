@@ -3,15 +3,23 @@
 In order to execute the project checkout the repository and change the directory into the project folder and execute the following commands:
 
   1- mvn clean install
+  
   2- Change the directory to target folder
+  
   3- Then to run the jar execute command: java -jar jar-name.
+  
 
 #### In order to run it from some ide, just checkout the code and use java 1.8 version to execute.
 1- Database file path can be modified in the application.properties file.
+
 2- Session handling has been implemented using custom authorization server class and session token is generated using spring OAuth2.
+
 3- Session validity is 5 minutes.
+
 4- In case of error the relevant error message is returned.
+
 5- There are only two users hardcoded as of now, which can be used to test the app (Given below). 
+
 
 
 Following requests can be used in sequential order to test the flow of the Statement App:
