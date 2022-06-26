@@ -32,11 +32,14 @@ User => username: user    |   password: user
 
 #### First step is to get the access token, execute the following request with the valid user:
 
-```curl --location --request POST 'http://localhost:9090/oauth/token' \
+
+```
+curl --location --request POST 'http://localhost:9090/oauth/token' \
 --header 'Authorization: Basic d2ViOndlYg==' \
 --form 'grant_type="password"' \
 --form 'username="user"' \
---form 'password="user"'```
+--form 'password="user"'
+```
 
 
 #### Second step is to get the resource by hitting statements API (Include the bearer token received in the first request reponse in the below request):
