@@ -58,10 +58,12 @@ curl --location --request GET 'http://localhost:9090/account/statements' \
 ```
 
 
-```curl --location --request GET 'http://localhost:9090/account/statements' \
+```
+curl --location --request GET 'http://localhost:9090/account/statements' \
 --header 'Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoibmFnYXJybzEwMDIiLCJ1c2VyX25hbWUiOiJ1c2VyIiwic2NvcGUiOlsicmVhZCIsIndyaXRlIiwidHJ1c3QiXSwiZXhwIjoxNjU2MjY1MTgxLCJhdXRob3JpdGllcyI6WyJVU0VSIl0sImp0aSI6IjNlZDJmNjA2LTA5ZWYtNDI5Mi1hOGM5LTQxYzFjMTY4N2E1YiIsImNsaWVudF9pZCI6IndlYiJ9.-TXkcXbbbdnqAPPZaoWjx60LJyTSEi2LjyZuaz1GgOw' \
 --header 'Content-Type: application/json' \
---data-raw '{}'```
+--data-raw '{}'
+```
 
 
 
